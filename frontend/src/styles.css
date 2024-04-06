@@ -27,6 +27,10 @@ body {
 .login-wrapper {
   height: 100%;
   padding-top: 220px;
+  display: flex; /* Sets the container to a flex container */
+  flex-direction: row; /* Sets the main axis direction to be horizontal */
+  justify-content: center; /* Centers the items along the main axis */
+  align-items: center;
 }
 
 .hooplaText {
