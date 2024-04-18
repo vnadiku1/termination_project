@@ -1,38 +1,4 @@
-[{"userId" : 1001,
-    "userdetails" : {
-        "userName" : "guru@infy.com",
-        "password" : "Guru@2019",
-        "fname":"Guru"
-    },
-    "order":[]
-},
-{
-    "userId" : 1002,
-    "userdetails" : {
-        "userName" : "tejaswini@infy.com",
-        "password" : "Tejaswini@2020",
-        "fname":"Tejaswini"
-    },
-    "order":[]
-},
-{
-    "userId" : 1003,
-    "userdetails" : {
-        "userName" : "ezhilan@infy.com",
-        "password" : "Ezhilan@2021",
-        "fname":"Ezhilan"
-    },
-    "order":[]
-},
-{
-    "userId" : 1004,
-    "userdetails" : {
-        "userName" : "saigupta@infy.com",
-        "password" : "Saigupta@2022",
-        "fname":"Sai"
-    },
-    "order":[]
-},
+[
 {
     "userId" : 1005,
     "userdetails" : {

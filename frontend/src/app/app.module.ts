@@ -29,7 +29,8 @@ import {MatTableModule} from "@angular/material/table";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatButtonToggleModule} from "@angular/material/button-toggle";
 import { LoginService } from './login/login.service';
-
+import {AngularFireModule} from '@angular/fire/compat'
+import { environment } from '../environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
@@ -68,6 +69,7 @@ import { LoginService } from './login/login.service';
     MatButtonModule,
     ReactiveFormsModule,
     HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [LoginService],
   bootstrap: [AppComponent]

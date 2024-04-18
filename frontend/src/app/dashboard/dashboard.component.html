@@ -76,7 +76,7 @@
               <mat-icon class="iconn">star</mat-icon>
             </div>
             <div>
-              {{product.price | currency:'INR'}}
+              {{product.price | currency:'USD'}}
             </div>
             <span *ngIf="product.pSeller.pQuantity<10 && product.pSeller.pQuantity>0">
               <h6 class="text-danger font-weight-bold font-weight-bold">Hurry!Only few left</h6>

@@ -2,12 +2,12 @@ const{ Schema } = require( 'mongoose' );
 const mongoose = require( 'mongoose' );
 mongoose.set( 'useCreateIndex',true )
 mongoose.Promise = global.Promise;
-const url ="mongodb+srv://vikas:Vikas@1997@project.gmkarxu.mongodb.net/"
-// const url = "mongodb://localhost:27017/admin"
+// const url ="mongodb+srv://vikas:Vikas@1997@project.gmkarxu.mongodb.net/"
+const url = "mongodb://localhost:27017/admin"
 const usersSchema = Schema( {
     userId: {type: Number, required: [true, 'userId is required'], unique: true},
     userdetails: {
-        userName: {
+        userName: {  
         type: String,
         unique: true
     },

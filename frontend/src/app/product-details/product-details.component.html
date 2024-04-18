@@ -37,16 +37,16 @@
             <mat-icon class="iconn">star</mat-icon>
         </span>
           <div class="mt-2">
-            <h4>Price: {{(pdetails[0].price*(1-pdetails[0].pSeller.pDiscount))| currency:'INR'}}</h4>
+            <h4>Price: {{(pdetails[0].price*(1-pdetails[0].pSeller.pDiscount))| currency:'USD'}}</h4>
           </div>
           <div class="text-secondary">
             <del>
-              <h4>{{pdetails[0].price| currency:'INR'}}</h4>
+              <h4>{{pdetails[0].price| currency:'USD'}}</h4>
             </del>
           </div>
           <div>
             <span class="text-warning h6">{{(pdetails[0].pSeller.pDiscount)| percent}} Off</span>
-            <span class="h6">+{{150 | currency:'INR' }} shipping charges</span>
+            <span class="h6">+{{150 | currency:'USD' }} shipping charges</span>
           </div>
           <br>
           <div *ngIf="pdetails[0].pSeller.pQuantity<10 && pdetails[0].pSeller.pQuantity>0">

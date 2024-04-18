@@ -4,6 +4,7 @@ import { Router } from "@angular/router";
 import {ActivatedRoute} from "@angular/router";
 import {DashboardComponent} from "../dashboard/dashboard.component";
 import { LoginService } from "./login.service";
+import { AuthService } from "../shared/auth.service";
 @Component({
   selector: "app-login",
   templateUrl: "./login.component.html",
@@ -18,7 +19,8 @@ export class LoginComponent implements OnInit {
   constructor(private fb: FormBuilder,
               private logserv: LoginService,
               private router: Router,
-              private r: ActivatedRoute) {  }
+              private r: ActivatedRoute,
+              private auth : AuthService) {  }
 
   public ngOnInit() {
     // sessionStorage.clear()
@@ -39,20 +41,39 @@ export class LoginComponent implements OnInit {
     const item = sessionStorage.getItem("Item");
     this.errorMessage = null;
     this.successMessage = null;
-    this.logserv.loginform(this.loginForm.value).subscribe(
-      (success) => {
-        if (product && item) {this.router.navigate(["home", item, product]); } else {this.router.navigate(["/home"]); }
+    // this.logserv.loginform(this.loginForm.value).subscribe(
+    //   (success) => {
 
-        // console.log(success.userdetails.fname)
-        this.loggedIn = true;
-        sessionStorage.setItem("FirstName", success.userdetails.fname);
-        sessionStorage.setItem("email", success.userdetails.userName);
+    //     if (product && item) {this.router.navigate(["home", item, product]); } else {this.router.navigate(["/home"]); }
 
-        // this.loggedIn=sessionStorage.getItem("FirstName")
-      },
-      (error) => {
-        this.errorMessage = error.error.message; },
-    );
+    //     // console.log(success.userdetails.fname)
+    //     this.loggedIn = true;
+    //     sessionStorage.setItem("FirstName", success.userdetails.fname);
+    //     sessionStorage.setItem("email", success.userdetails.userName);
+
+    //     // this.loggedIn=sessionStorage.getItem("FirstName")
+    //   },
+    //   (error) => {
+    //     this.errorMessage = error.error.message; },
+    // );
+    if(this.loginForm.value.userName == '') {
+      alert('Please enter email');
+      return;
+    }
+
+    if(this.loginForm.value.password == '') {
+      alert('Please enter password');
+      return;
+    }
+
+    this.auth.login(this.loginForm.value.userName,this.loginForm.value.password);
+    
+    // this.loginForm.value.userName = '';
+    // this.loginForm.value.password = '';
+  }
+
+  public signInWithGoogle() {
+    this.auth.googleSignIn();
   }
 
 }
