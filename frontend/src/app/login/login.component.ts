@@ -36,38 +36,38 @@ export class LoginComponent implements OnInit {
     }
   }
   public login() {
-    // console.log(this.loginForm.value);
+    // //console.log(this.loginForm.value);
     const product = sessionStorage.getItem("product");
     const item = sessionStorage.getItem("Item");
     this.errorMessage = null;
     this.successMessage = null;
-    // this.logserv.loginform(this.loginForm.value).subscribe(
-    //   (success) => {
+    this.logserv.loginform(this.loginForm.value).subscribe(
+      (success) => {
 
-    //     if (product && item) {this.router.navigate(["home", item, product]); } else {this.router.navigate(["/home"]); }
 
-    //     // console.log(success.userdetails.fname)
-    //     this.loggedIn = true;
-    //     sessionStorage.setItem("FirstName", success.userdetails.fname);
-    //     sessionStorage.setItem("email", success.userdetails.userName);
-
-    //     // this.loggedIn=sessionStorage.getItem("FirstName")
-    //   },
-    //   (error) => {
-    //     this.errorMessage = error.error.message; },
-    // );
-    if(this.loginForm.value.userName == '') {
-      alert('Please enter email');
-      return;
-    }
-
-    if(this.loginForm.value.password == '') {
-      alert('Please enter password');
-      return;
-    }
-
-    this.auth.login(this.loginForm.value.userName,this.loginForm.value.password);
+        // //console.log(success.userdetails.fname)
+        this.loggedIn = true;
+        sessionStorage.setItem("FirstName", success.userdetails.fname);
+        sessionStorage.setItem("email", success.userdetails.userName);
+        if(this.loginForm.value.userName == '') {
+          alert('Please enter email');
+          return;
+        }
     
+        if(this.loginForm.value.password == '') {
+          alert('Please enter password');
+          return;
+        }
+
+        // this.auth.login(this.loginForm.value.userName,this.loginForm.value.password);
+        if (product && item) {this.router.navigate(["home", item, product]); } else {this.router.navigate(["/home"]); }
+
+        // this.loggedIn=sessionStorage.getItem("FirstName")
+      },
+      (error) => {
+        this.errorMessage = error.error.message; },
+    );
+
     // this.loginForm.value.userName = '';
     // this.loginForm.value.password = '';
   }

@@ -4,7 +4,9 @@
     "userdetails" : {
         "userName" : "vikasnadikuda@gmail.com",
         "password" : "Vikas@1997",
-        "fname":"Vikas"
+        "fname":"Vikas",
+        "lastName":"Nadikuda",
+        "googleAuth":false
     },
     "order":[]
 }

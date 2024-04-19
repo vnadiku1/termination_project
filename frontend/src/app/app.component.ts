@@ -15,12 +15,12 @@ export class AppComponent {
   public ngOnInit() {
     this.loggedUser = null;
     sessionStorage.clear();
-    // console.log("hi")
-    // console.log("app",this.loggedUser)
+    // //console.log("hi")
+    // //console.log("app",this.loggedUser)
   }
   public ngDoCheck() {
     this.loggedUser = sessionStorage.getItem("email");
-    console.log(this.loggedUser)
+    //console.log(this.loggedUser)
   }
   public logout() {
     sessionStorage.clear();

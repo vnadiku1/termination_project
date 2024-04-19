@@ -39,7 +39,7 @@ export class ProductDetailsComponent implements OnInit {
     this.email = sessionStorage.getItem("email");
     this.router.params.subscribe((s) => {
       this.pname = s["name"]; });
-    // console.log(this.pname)
+    // //console.log(this.pname)
     this.viewserv.searchproducts(this.pname).subscribe(
       (success) => {this.pdetails = success ; this.quantity = this.pdetails[0].pSeller.pQuantity; },
       (error) => {this.errorMessage = error.error.message; },
@@ -64,7 +64,7 @@ export class ProductDetailsComponent implements OnInit {
     );
     this.buyserv.updateqty(od).subscribe(
       (success) => {
-        // console.log("jihihi")
+        // //console.log("jihihi")
         // this.category=sessionStorage.getItem("Item")
         // this.r.navigate(['/home',this.category,this.pdetails[0].pName])
       },

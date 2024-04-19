@@ -240,3 +240,322 @@ Wed Apr 17 2024 08:09:19 GMT-0400 (Eastern Daylight Time) - Error: The password 
 Thu Apr 18 2024 10:12:18 GMT-0400 (Eastern Daylight Time) - Error: Error in getting orders
     at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:58:29
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 10:58:44 GMT-0400 (Eastern Daylight Time) - Error: Error in getting orders
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:58:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 10:58:44 GMT-0400 (Eastern Daylight Time) - Error: Unable to add product
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:44:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 10:58:46 GMT-0400 (Eastern Daylight Time) - Error: Unable to add product
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:44:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 10:58:47 GMT-0400 (Eastern Daylight Time) - Error: Unable to add product
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:44:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 10:58:48 GMT-0400 (Eastern Daylight Time) - Error: Unable to add product
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:44:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 10:58:48 GMT-0400 (Eastern Daylight Time) - Error: Unable to add product
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:44:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 11:20:09 GMT-0400 (Eastern Daylight Time) - TypeError: usercol.insertOne is not a function
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:51:36
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 11:21:29 GMT-0400 (Eastern Daylight Time) - TypeError: user.insertOne is not a function
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:51:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 11:23:38 GMT-0400 (Eastern Daylight Time) - TypeError: usercol.insertOne is not a function
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:52:46
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 11:24:19 GMT-0400 (Eastern Daylight Time) - TypeError: usercol.insertOne is not a function
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:52:46
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 11:26:29 GMT-0400 (Eastern Daylight Time) - TypeError: newUser.save is not a function
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:51:36
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 11:37:24 GMT-0400 (Eastern Daylight Time) - ReferenceError: registerDetails is not defined
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:58:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 11:38:34 GMT-0400 (Eastern Daylight Time) - ReferenceError: registerDetails is not defined
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:59:33
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 11:47:45 GMT-0400 (Eastern Daylight Time) - Error: Error in getting orders
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:102:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 11:47:55 GMT-0400 (Eastern Daylight Time) - Error: Unable to add product
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:88:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 11:47:56 GMT-0400 (Eastern Daylight Time) - Error: Error in getting orders
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:102:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:03:02 GMT-0400 (Eastern Daylight Time) - Error: Error in getting orders
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:136:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:08:27 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:54:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:09:19 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:54:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:09:53 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:54:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:11:38 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:56:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:13:16 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:57:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:13:53 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:57:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:15:02 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:57:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:24:21 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:57:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:25:48 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:57:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:33:14 GMT-0400 (Eastern Daylight Time) - Error: The password entered is incorrect!!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:29:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:33:16 GMT-0400 (Eastern Daylight Time) - Error: The password entered is incorrect!!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:29:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:33:30 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:58:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:33:38 GMT-0400 (Eastern Daylight Time) - Error: Error in getting orders
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:148:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:34:48 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:58:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:36:16 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:58:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:39:15 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:58:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:40:54 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:58:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:41:09 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:58:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:41:18 GMT-0400 (Eastern Daylight Time) - Error: Error in getting orders
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:148:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:42:16 GMT-0400 (Eastern Daylight Time) - TypeError: Cannot read properties of null (reading 'googleAuth')
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:58:42
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:45:12 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:45:17 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:45:32 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:45:33 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:45:33 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:46:39 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:49:07 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:50:15 GMT-0400 (Eastern Daylight Time) - Error: Error in getting orders
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:148:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:50:19 GMT-0400 (Eastern Daylight Time) - Error: Unable to add product
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:134:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:50:20 GMT-0400 (Eastern Daylight Time) - Error: Error in getting orders
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:148:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:50:23 GMT-0400 (Eastern Daylight Time) - Error: Unable to add product
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:134:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:50:32 GMT-0400 (Eastern Daylight Time) - Error: Unable to add product
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:134:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:50:54 GMT-0400 (Eastern Daylight Time) - Error: Unable to add product
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:134:51
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:51:38 GMT-0400 (Eastern Daylight Time) - MongoError: E11000 duplicate key error collection: admin.Users index: userdetails.userName_1 dup key: { userdetails.userName: null }
+    at MongoError.create (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:518:28)
+    at processIncomingData (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Socket.ondata (node:internal/streams/readable:1007:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+Thu Apr 18 2024 12:56:01 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:56:03 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:56:11 GMT-0400 (Eastern Daylight Time) - Error: The password entered is incorrect!!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:29:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 12:56:29 GMT-0400 (Eastern Daylight Time) - MongoError: E11000 duplicate key error collection: admin.Users index: userdetails.userName_1 dup key: { userdetails.userName: "vikasnadikuda@gmail.com" }
+    at MongoError.create (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:518:28)
+    at processIncomingData (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Socket.ondata (node:internal/streams/readable:1007:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+Thu Apr 18 2024 12:58:01 GMT-0400 (Eastern Daylight Time) - MongoError: E11000 duplicate key error collection: admin.Users index: userdetails.userName_1 dup key: { userdetails.userName: "vikasnadikuda@gmail.com" }
+    at MongoError.create (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:518:28)
+    at processIncomingData (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Socket.ondata (node:internal/streams/readable:1007:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+Thu Apr 18 2024 13:00:58 GMT-0400 (Eastern Daylight Time) - MongoError: E11000 duplicate key error collection: admin.Users index: userdetails.userName_1 dup key: { userdetails.userName: "vikaskiran.nadikuda@gmail.com" }
+    at MongoError.create (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:518:28)
+    at processIncomingData (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Socket.ondata (node:internal/streams/readable:1007:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+Thu Apr 18 2024 13:04:18 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 13:04:36 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 13:04:43 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 13:05:36 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 13:05:37 GMT-0400 (Eastern Daylight Time) - Error: Email is already registered!
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:96:31
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 13:06:25 GMT-0400 (Eastern Daylight Time) - MongoError: E11000 duplicate key error collection: admin.Users index: userdetails.userName_1 dup key: { userdetails.userName: "vikasnadikuda@gmail.com" }
+    at MongoError.create (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:518:28)
+    at processIncomingData (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Socket.ondata (node:internal/streams/readable:1007:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+Thu Apr 18 2024 13:07:34 GMT-0400 (Eastern Daylight Time) - MongoError: E11000 duplicate key error collection: admin.Users index: userdetails.userName_1 dup key: { userdetails.userName: "vikasnadikuda@gmail.com" }
+    at MongoError.create (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:518:28)
+    at processIncomingData (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Socket.ondata (node:internal/streams/readable:1007:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+Thu Apr 18 2024 13:07:45 GMT-0400 (Eastern Daylight Time) - MongoError: E11000 duplicate key error collection: admin.Users index: userdetails.userName_1 dup key: { userdetails.userName: "vikasnadikuda@gmail.com" }
+    at MongoError.create (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:518:28)
+    at processIncomingData (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Socket.ondata (node:internal/streams/readable:1007:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+Thu Apr 18 2024 13:09:29 GMT-0400 (Eastern Daylight Time) - MongoError: E11000 duplicate key error collection: admin.Users index: userdetails.userName_1 dup key: { userdetails.userName: "vikasnadikuda@gmail.com" }
+    at MongoError.create (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\error.js:59:12)
+    at toError (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\utils.js:130:22)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\operations\common_functions.js:258:39
+    at handler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\topology.js:961:24)
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:352:13
+    at handleOperationResult (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\core\sdam\server.js:567:5)
+    at MessageStream.messageHandler (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:308:5)
+    at MessageStream.emit (node:events:518:28)
+    at processIncomingData (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\91906\Desktop\Final Project\project\termination_project\backend\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (node:internal/streams/writable:564:12)
+    at _write (node:internal/streams/writable:493:10)
+    at Writable.write (node:internal/streams/writable:502:10)
+    at Socket.ondata (node:internal/streams/readable:1007:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:559:12)
+Thu Apr 18 2024 13:58:28 GMT-0400 (Eastern Daylight Time) - Error: Error in getting orders
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:148:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 14:43:55 GMT-0400 (Eastern Daylight Time) - Error: Error in getting orders
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:148:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu Apr 18 2024 15:01:51 GMT-0400 (Eastern Daylight Time) - Error: You are not registered !
+    at C:\Users\91906\Desktop\Final Project\project\termination_project\backend\src\model\user.js:32:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

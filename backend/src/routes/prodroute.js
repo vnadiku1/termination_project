@@ -11,12 +11,12 @@ prodRoute.get( "/prodDBsetup", ( req, res, next ) => {
 } )
 prodRoute.get( "/fetchdetails/:item", ( req, res, next )=>{
     let category=req.params.item
-    console.log("hi");
+    //console.log("hi");
     
     prodServ.getProddetails( category ).then( data=>{
         if( data ){
             res.json( data )
-            console.log(data);
+            //console.log(data);
              
         }
     } ).catch( error=>{
@@ -29,7 +29,7 @@ prodRoute.get("/searchdetails/:searchitem",(req,res,next)=>{
     prodServ.search( searchitem ).then( data=>{
         if( data )
         res.json( data );
-        console.log(data);
+        //console.log(data);
         
     } ).catch( error=>{
         next( error )

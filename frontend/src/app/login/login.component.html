@@ -9,7 +9,7 @@
           <form class="example-form" [formGroup]="loginForm" (ngSubmit)="login()" >
             <mat-card-content>
               <mat-form-field class="example-full-width">
-                <input matInput placeholder="Enter your email Id" id="email" formControlName="userName">
+                <input autocomplete="off" matInput placeholder="Enter your email Id" id="email" formControlName="userName">
               </mat-form-field>
               <div id="userNameError" *ngIf="loginForm.controls.userName.invalid">
                 <span *ngIf="loginForm.controls.userName.errors?.required && loginForm.controls.userName.dirty" class="text-danger">Field Required</span>
@@ -31,6 +31,9 @@
                   </div>
               </a>
             </div>
+            <div class="row mt-2">
+              <a [routerLink]="['/register']">Sign Up</a>
+              </div>
             <div *ngIf="errorMessage!=null" id="errorMessage">
               <span class="text-danger"> {{errorMessage}} </span>
           </div>

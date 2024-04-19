@@ -16,6 +16,12 @@ const usersSchema = Schema( {
         },
         fname: {
             type: String
+        },
+        lastName:{
+            
+        },
+        googleAuth:{
+            type:Boolean
         }
     },
     order: {
@@ -85,7 +91,7 @@ let collection = {}
 collection.getUserCollection = () => {
     //establish connection and return model as promise
     return mongoose.connect( url, {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true} ).then( database => {
-        console.log(database)
+        //console.log(database)
         return database.model( 'Users', usersSchema )
     } ).catch( error => {
         if( error ){ //
@@ -96,11 +102,11 @@ collection.getUserCollection = () => {
 }
 collection.getProductCollection = () =>{
     return mongoose.connect( url,{useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true} ).then( database=>{
-        console.log(database)
+        //console.log(database)
         return database.model( 'Product',ProductSchema )
     } ).catch( error =>{
         if( error ){
-            console.log(error)
+            //console.log(error)
             let err = new Error( "Could not connect to the database" );
             err.status = 500;
             throw err;

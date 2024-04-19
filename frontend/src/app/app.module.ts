@@ -31,6 +31,10 @@ import {MatButtonToggleModule} from "@angular/material/button-toggle";
 import { LoginService } from './login/login.service';
 import {AngularFireModule} from '@angular/fire/compat'
 import { environment } from '../environments/environment';
+import { RegisterComponent } from './register/register.component';
+import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+import { provideFirebaseApp, getApp, initializeApp } from '@angular/fire/app';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +43,8 @@ import { environment } from '../environments/environment';
     ProductDetailsComponent,
     CategoryDetailsComponent,
     ViewOrdersComponent,
-    SearchComponent
+    SearchComponent,
+    RegisterComponent
     
   ],
   imports: [
@@ -69,7 +74,9 @@ import { environment } from '../environments/environment';
     MatButtonModule,
     ReactiveFormsModule,
     HttpClientModule,
-    AngularFireModule.initializeApp(environment.firebase)
+    AngularFireModule.initializeApp(environment.firebase),
+    // provideFirebaseApp(() => initializeApp({ ... })),
+    provideFirestore(() => getFirestore()),
   ],
   providers: [LoginService],
   bootstrap: [AppComponent]

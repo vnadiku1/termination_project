@@ -6,8 +6,10 @@ import {LoginComponent} from "./login/login.component";
 import {ProductDetailsComponent} from "./product-details/product-details.component";
 import {SearchComponent} from "./search/search.component";
 import {ViewOrdersComponent} from "./view-orders/view-orders.component";
+import { RegisterComponent } from "./register/register.component";
 const routes: Routes = [
   {path: "login", component: LoginComponent},
+  {path: "register", component: RegisterComponent},
   {path: "home", component: DashboardComponent},
   {path: "home/:category/:name", component: ProductDetailsComponent},
   {path: "home/:category", component: CategoryDetailsComponent},

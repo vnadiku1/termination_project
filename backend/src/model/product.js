@@ -68,8 +68,8 @@ product.updateQty=( order )=>{
         return prod.updateOne( {pName: order.pname}, {$inc: {"pSeller.pQuantity": -1}} )
                 .then( updatedData=>{
                     if( updatedData.nModified==1 ){                       
-                        console.log( "success" )
-                        console.log( updatedData )
+                        //console.log( "success" )
+                        //console.log( updatedData )
                         return updatedData
                     } else{
                         throw new Error( "Unable to update the quantity of product" )

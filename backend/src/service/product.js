@@ -49,7 +49,7 @@ product.getAllprod=()=>{
 product.updateQty=(order)=>{
     return prodDb.updateQty(order).then(data=>{
         if(data.nModified!=0){
-            // console.log("success")
+            // //console.log("success")
             return data
         }else{
             return null

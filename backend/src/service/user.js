@@ -18,6 +18,12 @@ user.loginUser = ( username, password ) => {
         return response
     } )
 }
+user.registerUser = ( username, password,firstname,lastname ) => {
+    
+    return userDb.registerUser( username, password, firstname,lastname).then( response => {
+        return response
+    } )
+}
 user.pushOrders = (username, order) => {
     return userDb.pushOrders(username,order).then(data=>{
         if(data){
